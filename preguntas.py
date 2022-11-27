@@ -200,7 +200,7 @@ def pregunta_03():
     # Importe SVC
     # Importe OneHotEncoder
     # Importe Pipeline
-    from sklearn.compose import ColumnTransformer
+    from sklearn.compose import ColumnTransformer, make_column_transformer
     from sklearn.svm import SVC
     from sklearn.preprocessing import OneHotEncoder
     from sklearn.pipeline import Pipeline
