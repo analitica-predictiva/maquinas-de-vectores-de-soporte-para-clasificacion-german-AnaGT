@@ -214,7 +214,7 @@ def pregunta_03():
     columnTransformer = make_column_transformer(
         (
             OneHotEncoder(),
-            OneHotEncoder(dtype="str"),
+            OneHotEncoder(dtype="string"),
         ),
         remainder="passthrough",
     )
